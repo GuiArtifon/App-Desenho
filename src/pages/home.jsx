@@ -57,7 +57,7 @@ export default function Home() {
   }
   return (
     <div className="container">
-      <div>
+      <div style={{backgroundColor:'white', margin:0}}  className="borda">
         <div className="search-container">
           <input
           placeholder="Procurar personagem"
